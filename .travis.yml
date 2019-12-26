@@ -10,7 +10,7 @@ jobs:
   include:
     - stage: backend
       script:
-        - ./backend/deploy.sh
+        - source ./backend/deploy.sh
       deploy:
         provider: heroku
         api_key: $HEROKU_TOKEN
