@@ -1,0 +1,31 @@
+branches:
+  except:
+    - gh-pages
+
+stages:
+  - backend
+  - frontend
+
+jobs:
+  include:
+    - stage: backend
+      script:
+        - echo 'yes'
+      deploy:
+        provider: heroku
+        api_key: $HEROKU_TOKEN
+        app: jonprentice-me
+    - stage: frontend
+      language: node_js
+      node_js:
+        - "node"
+      cache: npm
+      script:
+        - ./frontend/deploy.sh
+      deploy:
+        provider: pages
+        skip_cleanup: true
+        github_token: $GITHUB_TOKEN
+        local_dir: frontend/dist
+        on:
+          branch: master

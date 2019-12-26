@@ -1,0 +1,21 @@
+# Editor gitignores
+.vscode/
+
+# Virtual Env gitignores
+venv/
+.Python
+tox.ini
+pip-selfcheck.json
+
+# Python gitignores
+*.pyc
+__pycache__/
+
+# Development gitignores
+.DS_Store
+*.swp
+
+# File Upload/Download Directory ignore
+uploaded
+static/css/
+logs

@@ -1,0 +1,50 @@
+[
+  {
+    "account": "facebook",
+    "username": "jon77p",
+    "link": "https://facebook.com/jon77p",
+    "icon": "facebook"
+  },
+  {
+    "account": "twitter",
+    "username": "jon77p",
+    "link": "https://twitter.com/jon77p",
+    "icon": "twitter"
+  },
+  {
+    "account": "instagram",
+    "username": "jon77p",
+    "link": "https://instagram.com/jon77p",
+    "icon": "instagram"
+  },
+  {
+    "account": "snapchat",
+    "username": "joprentice",
+    "link": "https://www.snapchat.com/add/prentice_jon",
+    "icon": "snapchat"
+  },
+  {
+    "account": "reddit",
+    "username": "jon77p",
+    "link": "https://reddit.com/u/jon77p",
+    "icon": "reddit"
+  },
+  {
+    "account": "github",
+    "username": "jon77p",
+    "link": "https://github.com/jon77p",
+    "icon": "github"
+  },
+  {
+    "account": "linkedin",
+    "username": "jon77p",
+    "link": "https://linkedin.com/in/jon77p",
+    "icon": "linkedin"
+  },
+  {
+    "account": "spotify_for_artists",
+    "username": "Jon Prentice",
+    "link": "https://open.spotify.com/artist/2uLtW5rpMgFTTEfp45Dxlt?si=0bFOSOUkR-2tnvxAtLpPfQ",
+    "icon": "spotify"
+  }
+]
