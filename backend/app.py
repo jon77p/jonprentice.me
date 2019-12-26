@@ -20,11 +20,12 @@ PRINTED_TIME_FORMAT = "%B %d, %Y -  %I:%M:%S %p"
 def index():
     data = {}
     data['msg'] = 'welcome to the API for {}'.format(app.config.get('HOST'))
-    lastmodified = subprocess.run('git log -1 --format=%cd'.split(' '), capture_output=True).stdout.decode('utf-8').strip()
-    if lastmodified != '':
+    lastmodified = os.environ.get('BUILD_DATE')
+    if lastmodified is None:
+        lastmodified = subprocess.run('git log -1 --format=%cd'.split(' '), capture_output=True).stdout.decode('utf-8').strip()
         data['updated'] = time.strftime(PRINTED_TIME_FORMAT, time.strptime(lastmodified, "%a %b %d %H:%M:%S %Y %z"))
     else:
-        data['updated'] = time.strftime(PRINTED_TIME_FORMAT, time.localtime())
+        data['updated'] = time.strftime(PRINTED_TIME_FORMAT, time.strptime(lastmodified, "%a %b %d %H:%M:%S %Z %Y"))
     return jsonify(data), 200
 
 @app.route('/music', methods=['GET'])
