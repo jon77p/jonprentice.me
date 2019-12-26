@@ -10,7 +10,7 @@
       <div class="media-content">
         <div class="columns v-centered">
           <div class="column is-8">
-            <b-button class="is-link is-inverted" :href="song.link" target="__blank">
+            <b-button class="is-link is-inverted" tag="a" :href="song.link" target="__blank">
               {{ song.name }}
             </b-button>
             <a slot="trigger" slot-scope="data" aria-controls="collapsibleSong">
