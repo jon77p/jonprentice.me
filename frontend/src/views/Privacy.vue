@@ -37,10 +37,10 @@ export default {
   name: "privacy",
   props: ["ready"],
   computed: {
-    policy: function() {
+    policy: function () {
       return this.$store.state.privacyPolicy;
     },
-    updated: function() {
+    updated: function () {
       if (this.policy.date) {
         let today = new Date();
         let up = new Date(this.policy.date);
@@ -48,16 +48,16 @@ export default {
       } else {
         return "";
       }
-    }
+    },
   },
   methods: {
-    loadPrivacyPolicy: function() {
+    loadPrivacyPolicy: function () {
       this.$store.dispatch("loadPrivacyPolicy");
-    }
+    },
   },
-  mounted: function() {
+  mounted: function () {
     this.loadPrivacyPolicy();
-  }
+  },
 };
 </script>
 

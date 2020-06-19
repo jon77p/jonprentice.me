@@ -23,7 +23,7 @@ import Song from "@/components/Song.vue";
 export default {
   name: "music",
   components: {
-    Song
+    Song,
   },
   props: ["ready"],
   computed: {
@@ -32,15 +32,15 @@ export default {
     },
     music() {
       return this.$store.state.music;
-    }
+    },
   },
   methods: {
     loadMusic() {
       this.$store.dispatch("loadMusic");
-    }
+    },
   },
   mounted() {
     this.loadMusic();
-  }
+  },
 };
 </script>

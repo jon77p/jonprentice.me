@@ -40,15 +40,15 @@ import { mapState } from "vuex";
 
 export default {
   computed: mapState({
-    connected: state => state.connected,
-    social: state => state.socialAccounts
+    connected: (state) => state.connected,
+    social: (state) => state.socialAccounts,
   }),
   watch: {
     connected() {
       if (this.connected) {
         this.$store.dispatch("loadSocial");
       }
-    }
-  }
+    },
+  },
 };
 </script>

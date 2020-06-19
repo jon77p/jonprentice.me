@@ -75,10 +75,10 @@ export default {
   name: "home",
   props: ["host", "publicPath", "ready"],
   computed: {
-    connected: function() {
+    connected: function () {
       return this.$store.state.connected && this.ready;
     },
-    updated: function() {
+    updated: function () {
       if (this.connected) {
         let today = new Date();
         let up = new Date(this.$store.state.updated);
@@ -86,7 +86,7 @@ export default {
       } else {
         return "";
       }
-    }
-  }
+    },
+  },
 };
 </script>

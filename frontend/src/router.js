@@ -9,7 +9,7 @@ const routes = [
   {
     path: "/",
     name: "home",
-    component: Home
+    component: Home,
   },
   {
     path: "/privacy",
@@ -17,7 +17,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "privacy" */ "./views/Privacy.vue")
+    component: () => import(/* webpackChunkName: "privacy" */ "./views/Privacy.vue"),
   },
   {
     path: "/music",
@@ -25,15 +25,15 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "music" */ "./views/Music.vue")
+    component: () => import(/* webpackChunkName: "music" */ "./views/Music.vue"),
   },
   {
     path: "/src",
     beforeEnter: (to, from, next) => {
-      store.dispatch("loadSrc").then(res => {
+      store.dispatch("loadSrc").then((res) => {
         window.location.href = res;
       });
-    }
+    },
   },
   {
     path: "/blog",
@@ -41,14 +41,14 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "music" */ "./views/Blog.vue")
-  }
+    component: () => import(/* webpackChunkName: "music" */ "./views/Blog.vue"),
+  },
 ];
 
 const router = new Router({
   mode: "history",
   base: process.env.BASE_URL,
-  routes
+  routes,
 });
 
 export default router;

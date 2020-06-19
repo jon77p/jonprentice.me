@@ -31,13 +31,13 @@ import getDifference from "@/funcs/time.js";
 export default {
   name: "Song",
   props: ["song"],
-  data: function() {
+  data: function () {
     return {
-      open: false
+      open: false,
     };
   },
   computed: {
-    updated: function() {
+    updated: function () {
       if (this.song.released) {
         let today = new Date();
         let up = new Date(this.song.released);
@@ -45,7 +45,7 @@ export default {
       } else {
         return "";
       }
-    }
-  }
+    },
+  },
 };
 </script>

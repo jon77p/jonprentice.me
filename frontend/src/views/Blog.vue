@@ -33,16 +33,16 @@ export default {
   props: ["ready"],
   data() {
     return {
-      hover: false
+      hover: false,
     };
   },
   computed: {
     connected() {
       return this.ready && this.$store.state.connected;
-    }
+    },
   },
   methods: {},
-  mounted: function() {}
+  mounted: function () {},
 };
 </script>
 

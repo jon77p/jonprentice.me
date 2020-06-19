@@ -15,21 +15,21 @@ import MyFooter from "@/components/MyFooter.vue";
 import { mapState } from "vuex";
 
 export default {
-  data: function() {
+  data: function () {
     return {
       host: "jonprentice.me",
       publicPath: process.env.BASE_URL,
       connected: false,
-      loading: false
+      loading: false,
     };
   },
   components: {
     MyNavbar,
-    MyFooter
+    MyFooter,
   },
   computed: mapState({
-    status: state => state.connected,
-    social: state => state.socialAccounts
+    status: (state) => state.connected,
+    social: (state) => state.socialAccounts,
   }),
   methods: {
     apiFailure() {
@@ -37,7 +37,7 @@ export default {
         duration: 99999,
         message: "Failed to connect to the API!",
         position: "is-top",
-        type: "is-danger"
+        type: "is-danger",
       });
     },
     ping() {
@@ -58,7 +58,7 @@ export default {
           loadingComponent.close();
         }
       );
-    }
+    },
   },
   watch: {
     status() {
@@ -67,11 +67,11 @@ export default {
           this.apiFailure();
         }
       });
-    }
+    },
   },
-  mounted: function() {
+  mounted: function () {
     this.ping();
-  }
+  },
 };
 </script>
 
