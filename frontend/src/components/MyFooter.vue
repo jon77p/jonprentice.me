@@ -22,7 +22,7 @@
         </div>
       </div>
       <hr />
-      <p>Developed and maintained by Jon Prentice &copy; 2019</p>
+      <p>Developed and maintained by Jon Prentice &copy; 2020</p>
       <p>
         Please report any site issues on this site's
         <a class="button is-small" href="https://github.com/jon77p/jonprentice.me" target="__blank">
