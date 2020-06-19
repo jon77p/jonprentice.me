@@ -27,11 +27,6 @@ const routes = [
     component: () => import(/* webpackChunkName: "music" */ "./views/Music.vue")
   },
   {
-    path: "/.well-known/*",
-    name: ".well-known",
-    redirect: "../public/.well-known/"
-  },
-  {
     path: "/blog",
     name: "blog",
     // route level code-splitting
