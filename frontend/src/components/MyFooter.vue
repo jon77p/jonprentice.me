@@ -8,7 +8,7 @@
       </div>
       <div class="columns is-centered">
         <div class="column is-half">
-          <div class="buttons has-addons">
+          <div class="buttons has-addons is-centered">
             <b-button
               class="is-large"
               v-for="account in social"
