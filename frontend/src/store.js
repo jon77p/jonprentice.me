@@ -46,6 +46,11 @@ export const actions = {
       commit("loadedSocial", response.data);
     });
   },
+  loadSrc({ commit }) {
+    return axios.get(`${API_URL}/src`).then(response => {
+      return response.data.link;
+    });
+  },
   ping({ commit }) {
     return axios.get(`${API_URL}`).then(
       response => {
