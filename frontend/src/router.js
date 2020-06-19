@@ -30,6 +30,14 @@ const routes = [
     path: "/.well-known/*",
     name: ".well-known",
     redirect: "../public/.well-known/"
+  },
+  {
+    path: "/blog",
+    name: "blog",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "music" */ "./views/Blog.vue")
   }
 ];
 
