@@ -12,7 +12,7 @@ app.config.from_object(config.Config)
 
 CORS(app, resources={r'/*': {'origins': '*'}})
 
-PRINTED_TIME_FORMAT = "%B %d, %Y -  %I:%M:%S %p"
+PRINTED_TIME_FORMAT = "%B %d, %Y -  %I:%M:%S %p %Z"
 
 ############# PAGE ROUTING #############
 

@@ -1,7 +1,7 @@
 var getDifference = (date2, date1) => {
   var diff = date2.getTime() - date1.getTime();
 
-  var msec = diff;
+  var msec = Math.abs(diff);
   var years = Math.floor(msec / 1000 / 60 / 60 / 24 / 365);
   msec -= years * 1000 * 60 * 60 * 24 * 365;
   var months = Math.floor(msec / 1000 / 60 / 60 / 24 / 7 / 30);
