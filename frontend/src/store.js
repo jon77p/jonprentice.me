@@ -26,7 +26,7 @@ export const mutations = {
     state.privacyPolicy = policy;
   },
   loadedSocial(state, social) {
-    state.socialAccounts = social;
+    state.socialAccounts = social.social;
   },
 };
 
