@@ -1,0 +1,8 @@
+---
+layout: none
+permalink: .well-known/security.txt
+---
+Contact: mailto:security@jonprentice.me
+Encryption: https://keybase.io/jon77p/key.asc
+Preferred-Languages: en
+Canonical: https://jonprentice.me/.well-known/security.txt
