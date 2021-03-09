@@ -20,10 +20,10 @@ export const mutations = {
     state.updated = payload.updated;
   },
   loadedMusic(state, music) {
-    state.music = music;
+    state.music = music.music;
   },
   loadedPrivacyPolicy(state, policy) {
-    state.privacyPolicy = policy;
+    state.privacyPolicy = policy.policy;
   },
   loadedSocial(state, social) {
     state.socialAccounts = social.social;
