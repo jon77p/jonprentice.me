@@ -13,7 +13,7 @@
     "snyk-protect": "snyk-protect"
   },
   "resolutions": {
-    "minimist": "1.2.3",
+    "minimist": "1.2.5",
     "mkdir": "0.0.2",
     "yargs-parser": "15.0.1"
   },
