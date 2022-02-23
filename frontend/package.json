@@ -14,7 +14,7 @@
   },
   "resolutions": {
     "minimist": "1.2.3",
-    "mkdir": "0.5.3",
+    "mkdir": "0.0.2",
     "yargs-parser": "15.0.1"
   },
   "dependencies": {
