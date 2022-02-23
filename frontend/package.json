@@ -46,7 +46,7 @@
     "eslint-plugin-vue": "6.2.2",
     "jest-mock-axios": "4.5.0",
     "node-sass": "7.0.1",
-    "prettier": "2.0.5",
+    "prettier": "2.5.1",
     "sass-loader": "8.0.2",
     "vue-template-compiler": "2.6.11"
   },
