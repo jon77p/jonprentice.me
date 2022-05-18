@@ -43,7 +43,7 @@
     "babel-jest": "28.1.0",
     "eslint": "8.15.0",
     "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-vue": "8.7.1",
+    "eslint-plugin-vue": "9.0.0",
     "jest-mock-axios": "4.6.1",
     "node-sass": "7.0.1",
     "prettier": "2.6.2",
