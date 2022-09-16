@@ -24,7 +24,7 @@
     "cypress": "10.7.0",
     "minimalist": "1.0.0",
     "serve": "14.0.1",
-    "vue": "3.2.38",
+    "vue": "3.2.39",
     "vue-router": "4.1.5",
     "vuex": "4.0.2",
     "webpack-dev-server": "4.11.0",
