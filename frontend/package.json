@@ -18,7 +18,7 @@
     "yargs-parser": "21.1.1"
   },
   "dependencies": {
-    "axios": "1.0.0",
+    "axios": "1.1.2",
     "buefy": "0.9.22",
     "core-js": "3.25.5",
     "cypress": "10.9.0",
