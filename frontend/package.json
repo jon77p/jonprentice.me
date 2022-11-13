@@ -24,7 +24,7 @@
     "cypress": "11.0.1",
     "minimalist": "1.0.0",
     "serve": "14.1.1",
-    "vue": "3.2.41",
+    "vue": "3.2.45",
     "vue-router": "4.1.6",
     "vuex": "4.1.0",
     "webpack-dev-server": "4.11.1",
@@ -48,7 +48,7 @@
     "node-sass": "8.0.0",
     "prettier": "2.7.1",
     "sass-loader": "13.2.0",
-    "vue-template-compiler": "2.7.13"
+    "vue-template-compiler": "2.7.14"
   },
   "snyk": true
 }
