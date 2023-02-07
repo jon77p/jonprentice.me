@@ -23,7 +23,7 @@
     "core-js": "3.27.2",
     "cypress": "12.5.1",
     "minimalist": "1.0.0",
-    "serve": "14.1.2",
+    "serve": "14.2.0",
     "vue": "3.2.45",
     "vue-router": "4.1.6",
     "vuex": "4.1.0",
