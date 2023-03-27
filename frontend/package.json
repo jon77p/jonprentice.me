@@ -47,7 +47,7 @@
     "jest-mock-axios": "4.7.1",
     "node-sass": "8.0.0",
     "prettier": "2.8.7",
-    "sass-loader": "13.2.1",
+    "sass-loader": "13.2.2",
     "vue-template-compiler": "2.7.14"
   },
   "snyk": true
