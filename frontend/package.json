@@ -27,7 +27,7 @@
     "vue": "3.2.47",
     "vue-router": "4.1.6",
     "vuex": "4.1.0",
-    "webpack-dev-server": "4.13.1",
+    "webpack-dev-server": "4.13.2",
     "@snyk/protect": "latest"
   },
   "devDependencies": {
