@@ -21,7 +21,7 @@
     "axios": "1.5.1",
     "buefy": "1.0.0",
     "core-js": "3.32.2",
-    "cypress": "13.2.0",
+    "cypress": "13.3.0",
     "minimalist": "1.0.0",
     "serve": "14.2.1",
     "vue": "3.3.4",
