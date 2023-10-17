@@ -28,7 +28,7 @@
     "vue-router": "4.2.5",
     "vuex": "4.1.0",
     "webpack-dev-server": "4.15.1",
-    "@snyk/protect": "latest"
+    "@snyk/protect": "1.1227.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "5.0.8",
