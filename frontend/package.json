@@ -18,17 +18,17 @@
     "yargs-parser": "21.1.1"
   },
   "dependencies": {
-    "axios": "1.8.4",
+    "axios": "1.9.0",
     "buefy": "1.0.0",
-    "core-js": "3.41.0",
-    "cypress": "14.3.0",
+    "core-js": "3.42.0",
+    "cypress": "14.3.3",
     "minimalist": "1.0.0",
     "serve": "14.2.4",
     "vue": "3.5.13",
-    "vue-router": "4.5.0",
+    "vue-router": "4.5.1",
     "vuex": "4.1.0",
     "webpack-dev-server": "5.2.1",
-    "@snyk/protect": "1.1296.1"
+    "@snyk/protect": "1.1296.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "5.0.8",
@@ -39,11 +39,11 @@
     "@vue/eslint-config-prettier": "10.2.0",
     "@vue/test-utils": "2.4.6",
     "babel-core": "6.26.3",
-    "@babel/eslint-parser": "7.27.0",
+    "@babel/eslint-parser": "7.27.1",
     "babel-jest": "29.7.0",
-    "eslint": "9.24.0",
-    "eslint-plugin-prettier": "5.2.6",
-    "eslint-plugin-vue": "10.0.0",
+    "eslint": "9.26.0",
+    "eslint-plugin-prettier": "5.4.0",
+    "eslint-plugin-vue": "10.1.0",
     "jest-mock-axios": "4.8.0",
     "node-sass": "9.0.0",
     "prettier": "3.5.3",
