@@ -8,6 +8,8 @@ import subprocess
 import config
 
 app = Flask(__name__)
+import logging
+logging.basicConfig(level=logging.ERROR)
 app.config.from_object(config.Config)
 
 CORS(app, resources={r'/*': {'origins': '*'}})
@@ -39,8 +41,8 @@ def music():
         return jsonify(data), 200
 
     except Exception as msg:
-        data = {'error': '{}: {}'.format(type(msg), msg)}
-        return jsonify(data), 400
+        app.logger.error('An error occurred in /music: %s', msg, exc_info=True)
+        return jsonify({'error': 'An internal error has occurred. Please try again later.'}), 400
 
 @app.route('/resume', methods=['GET'])
 def resume():
