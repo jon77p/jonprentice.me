@@ -20,7 +20,7 @@
   "dependencies": {
     "axios": "1.9.0",
     "buefy": "1.0.0",
-    "core-js": "3.42.0",
+    "core-js": "3.43.0",
     "cypress": "14.4.1",
     "minimalist": "1.0.0",
     "serve": "14.2.4",
