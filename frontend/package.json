@@ -31,11 +31,11 @@
     "@snyk/protect": "1.1298.3"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "5.0.8",
-    "@vue/cli-plugin-e2e-cypress": "5.0.8",
-    "@vue/cli-plugin-eslint": "5.0.8",
-    "@vue/cli-plugin-unit-jest": "5.0.8",
-    "@vue/cli-service": "5.0.8",
+    "@vue/cli-plugin-babel": "5.0.9",
+    "@vue/cli-plugin-e2e-cypress": "5.0.9",
+    "@vue/cli-plugin-eslint": "5.0.9",
+    "@vue/cli-plugin-unit-jest": "5.0.9",
+    "@vue/cli-service": "5.0.9",
     "@vue/eslint-config-prettier": "10.2.0",
     "@vue/test-utils": "2.4.6",
     "babel-core": "6.26.3",
