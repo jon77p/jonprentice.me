@@ -44,7 +44,7 @@
     "eslint": "9.34.0",
     "eslint-plugin-prettier": "5.5.4",
     "eslint-plugin-vue": "10.4.0",
-    "jest-mock-axios": "4.8.0",
+    "jest-mock-axios": "4.9.0",
     "node-sass": "9.0.0",
     "prettier": "3.6.2",
     "sass-loader": "16.0.5",
