@@ -25,7 +25,7 @@
     "minimalist": "1.0.0",
     "serve": "14.2.5",
     "vue": "3.5.22",
-    "vue-router": "4.5.1",
+    "vue-router": "4.6.0",
     "vuex": "4.1.0",
     "webpack-dev-server": "5.2.2",
     "@snyk/protect": "1.1299.1"
