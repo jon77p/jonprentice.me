@@ -18,17 +18,17 @@
     "yargs-parser": "22.0.0"
   },
   "dependencies": {
-    "axios": "1.12.2",
+    "axios": "1.13.2",
     "buefy": "3.0.3",
-    "core-js": "3.45.1",
-    "cypress": "15.4.0",
+    "core-js": "3.46.0",
+    "cypress": "15.6.0",
     "minimalist": "1.0.0",
     "serve": "14.2.5",
-    "vue": "3.5.22",
-    "vue-router": "4.5.1",
+    "vue": "3.5.24",
+    "vue-router": "4.6.3",
     "vuex": "4.1.0",
     "webpack-dev-server": "5.2.2",
-    "@snyk/protect": "1.1299.1"
+    "@snyk/protect": "1.1300.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "5.0.9",
@@ -39,15 +39,15 @@
     "@vue/eslint-config-prettier": "10.2.0",
     "@vue/test-utils": "2.4.6",
     "babel-core": "6.26.3",
-    "@babel/eslint-parser": "7.28.4",
+    "@babel/eslint-parser": "7.28.5",
     "babel-jest": "30.2.0",
-    "eslint": "9.37.0",
+    "eslint": "9.39.1",
     "eslint-plugin-prettier": "5.5.4",
-    "eslint-plugin-vue": "10.5.0",
+    "eslint-plugin-vue": "10.5.1",
     "jest-mock-axios": "4.9.0",
     "node-sass": "9.0.0",
     "prettier": "3.6.2",
-    "sass-loader": "16.0.5",
+    "sass-loader": "16.0.6",
     "vue-template-compiler": "2.7.16"
   },
   "snyk": true
