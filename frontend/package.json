@@ -28,7 +28,7 @@
     "vue-router": "5.0.6",
     "vuex": "4.1.0",
     "webpack-dev-server": "5.2.3",
-    "@snyk/protect": "1.1304.0"
+    "@snyk/protect": "1.1304.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "5.0.9",
@@ -37,7 +37,7 @@
     "@vue/cli-plugin-unit-jest": "5.0.9",
     "@vue/cli-service": "5.0.9",
     "@vue/eslint-config-prettier": "10.2.0",
-    "@vue/test-utils": "2.4.6",
+    "@vue/test-utils": "2.4.9",
     "babel-core": "6.26.3",
     "@babel/eslint-parser": "7.28.6",
     "babel-jest": "30.3.0",
