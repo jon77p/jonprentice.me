@@ -24,11 +24,11 @@
     "cypress": "15.14.2",
     "minimalist": "1.0.0",
     "serve": "14.2.6",
-    "vue": "3.5.33",
+    "vue": "3.5.34",
     "vue-router": "5.0.6",
     "vuex": "4.1.0",
     "webpack-dev-server": "5.2.3",
-    "@snyk/protect": "1.1304.1"
+    "@snyk/protect": "1.1304.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "5.0.9",
@@ -40,10 +40,10 @@
     "@vue/test-utils": "2.4.10",
     "babel-core": "6.26.3",
     "@babel/eslint-parser": "7.28.6",
-    "babel-jest": "30.3.0",
+    "babel-jest": "30.4.0",
     "eslint": "9.39.4",
     "eslint-plugin-prettier": "5.5.5",
-    "eslint-plugin-vue": "10.9.0",
+    "eslint-plugin-vue": "10.9.1",
     "jest-mock-axios": "4.9.0",
     "node-sass": "9.0.0",
     "prettier": "3.8.3",
