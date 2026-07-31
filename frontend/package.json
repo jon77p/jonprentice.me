@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "axios": "1.18.1",
-    "buefy": "3.0.8",
+    "buefy": "3.0.9",
     "core-js": "3.49.0",
     "cypress": "15.19.0",
     "minimalist": "1.0.0",
@@ -28,7 +28,7 @@
     "vue-router": "5.2.0",
     "vuex": "4.1.0",
     "webpack-dev-server": "5.2.6",
-    "@snyk/protect": "1.1306.1"
+    "@snyk/protect": "1.1306.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "5.0.9",
