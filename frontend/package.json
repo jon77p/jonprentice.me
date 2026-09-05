@@ -21,11 +21,11 @@
     "axios": "1.20.0",
     "buefy": "3.1.0",
     "core-js": "3.50.0",
-    "cypress": "16.0.0",
+    "cypress": "15.21.1",
     "minimalist": "1.0.0",
     "serve": "14.2.6",
     "vue": "3.5.42",
-    "vue-router": "5.3.0",
+    "vue-router": "5.3.1",
     "vuex": "4.1.0",
     "webpack-dev-server": "5.2.6",
     "@snyk/protect": "1.1307.0"
