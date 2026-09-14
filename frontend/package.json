@@ -39,7 +39,7 @@
     "@vue/eslint-config-prettier": "10.2.0",
     "@vue/test-utils": "2.5.0",
     "babel-core": "6.26.3",
-    "@babel/eslint-parser": "8.0.1",
+    "@babel/eslint-parser": "8.0.5",
     "babel-jest": "30.5.1",
     "eslint": "10.10.0",
     "eslint-plugin-prettier": "5.5.6",
